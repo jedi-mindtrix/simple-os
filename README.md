@@ -1,6 +1,6 @@
-# A LAMP stack for the purpose deploying a simple Internet operating system built with Docker Compose and a combination of applications.
+# insights OS is a simple Personal Internet operating system installed with Docker Compose. It is based on a LAMP stack and a combination of applications built with Docker Compose.
 
-insights os starts with a basic LAMP stack environment built using Docker Compose. It consists of the following:
+insights OS starts with a basic LAMP stack environment and consists of the following:
 
 - PHP
 - Apache
