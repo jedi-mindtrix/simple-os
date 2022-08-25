@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build insights OS using Docker Compose.
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    - name: Build insights OS using Docker Compose on Ubuntu.
+      run: docker build . --file Dockerfile --tag  mindtrix/insights-os:$(date +%s)
