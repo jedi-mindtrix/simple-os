@@ -9,7 +9,7 @@ insights OS starts with a basic LAMP stack environment and consists of the follo
 - Redis
 - To Do
 
-As of now, we have several different PHP versions. Use appropriate php version as needed:
+As of now, insights OS can use various PHP versions. Select the appropriate php version needed. (Default PHP 7.4):
 
 - 5.4.x
 - 5.6.x
@@ -23,7 +23,7 @@ As of now, we have several different PHP versions. Use appropriate php version a
 ## Installation
 
 - Clone this repository on your local computer
-- configure .env as needed
+- Rename the sample.env file, and configure the new .env file as needed.
 - Run the `docker-compose up -d`.
 
 ```shell
@@ -41,11 +41,11 @@ isights os LAMP stack is now installed, and you can access it via `http://localh
 
 ### General Information
 
-This Docker Stack is build for local development and not for production usage.
+This Docker Stack is intended for local development or prototyping ONLY, and not for production usage.
 
 ### Configuration
 
-This package comes with default configuration options. You can modify them by creating `.env` file in your root directory.
+This installation comes with default configuration options. You can modify them by creating `.env` file in your root directory.
 To make it easy, just copy the content from `sample.env` file and update the environment variable values as per your need.
 
 ### Configuration Variables
