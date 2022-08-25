@@ -1,4 +1,4 @@
-name: insights OS Docker Image
+name: simple OS Docker Image
 
 on:
   push:
@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build insights OS using Docker Compose on Ubuntu.
-      run: docker build . --file Dockerfile --tag  mindtrix/insights-os:$(date +%s)
+    - name: Build simple OS using Docker Compose on Ubuntu.
+      run: docker build . --file Dockerfile --tag  mindtrix/simple-os:$(date +%s)

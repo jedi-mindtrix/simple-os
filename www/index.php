@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>insighst OS</title>
+        <title>simple OS</title>
         <link rel="stylesheet" href="/assets/css/bulma.min.css">
     </head>
     <body>
@@ -11,10 +11,10 @@
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <h1 class="title">
-                        insights OS
+                        simple OS
                     </h1>
                     <h2 class="subtitle">
-                        isights OS, a simple Internet development environment.
+                        simple OS, a simple Internet development environment.
                     </h2>
                 </div>
             </div>

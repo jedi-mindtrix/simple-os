@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "simple-os",
+			"path": "../../simple-os"
+		}
+	],
+	"settings": {}
+}
