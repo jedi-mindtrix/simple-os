@@ -1,6 +1,6 @@
-# insights OS is a simple Personal Internet operating system installed with Docker Compose. It is based on a LAMP stack and a combination of applications built with Docker Compose.
+# simple OS is a simple Personal Internet operating system installed with Docker Compose. It is based on a LAMP stack and a combination of applications built with Docker Compose.
 
-insights OS starts with a basic LAMP stack environment and consists of the following:
+simple OS starts with a basic LAMP stack environment and consists of the following:
 
 - PHP
 - Apache
@@ -9,7 +9,7 @@ insights OS starts with a basic LAMP stack environment and consists of the follo
 - Redis
 - To Do
 
-As of now, insights OS can use various PHP versions. Select the appropriate php version needed. (Default PHP 7.4):
+As of now, simple OS can use various PHP versions. Select the appropriate php version needed. (Default PHP 7.4):
 
 - 5.4.x
 - 5.6.x
@@ -30,12 +30,12 @@ As of now, insights OS can use various PHP versions. Select the appropriate php 
 git clone https://github.com/sprintcube/docker-compose-lamp.git
 cd docker-compose-lamp/
 cp sample.env .env
-// modify sample.env as needed
+// modify the .env as needed
 docker-compose up -d
 // visit localhost
 ```
 
-isights os LAMP stack is now installed, and you can access it via `http://localhost`.
+simple OS is now installed, and you can be accessed at `http://localhost`.
 
 ## Configuration and Usage
 
