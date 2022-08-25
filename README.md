@@ -1,12 +1,13 @@
-# LAMP stack  for the purpose of a simple operating system built with Docker Compose
+# A LAMP stack for the purpose deploying a simple Internet operating system built with Docker Compose and a combination of applications.
 
-A basic LAMP stack environment built using Docker Compose. It consists of the following:
+insights os starts with a basic LAMP stack environment built using Docker Compose. It consists of the following:
 
 - PHP
 - Apache
 - MySQL
 - phpMyAdmin
 - Redis
+- To Do
 
 As of now, we have several different PHP versions. Use appropriate php version as needed:
 
@@ -34,7 +35,7 @@ docker-compose up -d
 // visit localhost
 ```
 
-Your LAMP stack is now ready!! You can access it via `http://localhost`.
+isights os LAMP stack is now installed, and you can access it via `http://localhost`.
 
 ## Configuration and Usage
 

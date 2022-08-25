@@ -15,10 +15,10 @@ dbarr=(mariadb103 mariadb104 mariadb105 mariadb106 mysql57 mysql8)
 checkdep() {
 
 echo "### Hello, let's get started by checking for insights os dependencies."
-which docker || { echo 'Executable not found: docker' ; exit 1; }
-which docker-compose || { echo 'Executable not found: docker-compose' ; exit 1; }
-which curl || { echo 'Executable not found: curl' ; exit 1; }
-which sed || { echo 'Executable not found: sed' ; exit 1; }
+which docker || { echo 'Oops, insights os needs docker to be installed.' ; exit 1; }
+which docker-compose || { echo 'Oops, insights os uses docker-compose to install.  Please install docker-compose.' ; exit 1; }
+which curl || { echo 'ops, insights os needs curl to be installed.' ; exit 1; }
+which sed || { echo 'ops, insights os needs sed to be installed' ; exit 1; }
 }
 
 usage() {

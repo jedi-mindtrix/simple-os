@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>LAMP STACK</title>
+        <title>insighst os</title>
         <link rel="stylesheet" href="/assets/css/bulma.min.css">
     </head>
     <body>
@@ -11,10 +11,10 @@
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <h1 class="title">
-                        LAMP STACK
+                        insights os
                     </h1>
                     <h2 class="subtitle">
-                        Your local development environment
+                        isights os Internet development environment
                     </h2>
                 </div>
             </div>
